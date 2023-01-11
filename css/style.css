@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 17px 90px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* about section image css */
+.imageAboutPage {
+  width: 20%;
+}
+
+ 
+h1
+{
+    width: 10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Lucida handwriting;
+}
+
+
+.bgimage {
+  height:100vh;
+  background: url(/skill.gif);
+  background-size:cover;
+  position:relative;
+}
+.hero_title {
+  font-size: 4.5rem;
+}
+.hero_desc {
+  font-size: 2rem;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+
+
+.skills-circle {
+  width: 15px; 
+  height: 15px; 
+  border-radius: 100%;
+  display: inline-block;
+}
+
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --light-grey: #f8f8f8;
+  --light-grey-2: #ccc;
+  --dark-grey: #666;
+  --accent-1: #2E92A9;
+  --accent-2: #9539ebdd;
+  --accent-3: #EF7365;
+  --accent-4: #f7bf30;
+  --accent-5: #ffe29a;
+}
+
+.text-white {
+  color: var(--white) !important; 
+}
+.text-black {
+  color: var(--black) !important; 
+}
+.text-light-grey {
+  color: var(--light-grey) !important; 
+}
+.text-light-grey-2 {
+  color: var(--light-grey-2) !important; 
+}
+.text-dark-grey {
+  color: var(--dark-grey) !important; 
+}
+.text-accent-1 {
+  color: var(--accent-1) !important; 
+}
+.text-accent-2 {
+  color: var(--accent-2) !important; 
+}
+.text-accent-3 {
+  color: var(--accent-3) !important; 
+}
+.text-accent-4 {
+  color: var(--accent-4) !important; 
+}
+
+
+.bg-white {
+  background-color: var(--white) !important; 
+}
+.bg-black {
+  background-color: var(--black) !important; 
+}
+.bg-light-grey {
+  background-color: var(--light-grey) !important; 
+}
+.bg-light-grey-2 {
+  background-color: var(--light-grey-2) !important; 
+}
+.bg-dark-grey {
+  background-color: var(--dark-grey) !important; 
+}
+.bg-accent-1 {
+  background-color: var(--accent-1) !important; 
+}
+.bg-accent-2 {
+  background-color: var(--accent-2) !important; 
+}
+.bg-accent-3 {
+  background-color: var(--accent-3) !important; 
+}
+.bg-accent-4 {
+  background-color: var(--accent-4) !important; 
+}
+
